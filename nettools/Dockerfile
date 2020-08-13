@@ -11,6 +11,6 @@ MAINTAINER manohar.r.castelino@intel.com
 RUN apt-get update
 
 # Install common tools
-RUN apt-get install -y dnsutils curl inetutils-traceroute iputils-ping net-tools iproute mtr-tiny netcat ethtool
+RUN apt-get install -y dnsutils curl inetutils-traceroute iputils-ping net-tools iproute2 mtr-tiny netcat ethtool
 RUN apt-get install -y iperf
 RUN apt-get install -y lshw
